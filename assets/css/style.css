@@ -10,10 +10,16 @@ body {
 }
 
 #container {
-  background: #ede9cc;
+  /* background: #ede9cc url(../img/bg-container.png) top center repeat-y; */
   margin: 0 auto;
   max-width: 1188px;
-  min-width: 740px;
+  min-width: 800px;
+}
+
+#content-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 'main' 'side';
 }
 
 #top {
@@ -111,4 +117,77 @@ ul#navbar a:hover {
   width: 226px;
   height: 164px;
   float: right;
+}
+
+#main-area {
+  grid-area: 'main';
+  background: #ede9cc url(../img/bg-area-principal.png) repeat-x;
+  padding: 20px 15px;
+}
+
+#side-area {
+  padding: 20px 15px;
+  grid-area: 'side';
+  background: #dbd7b3 url(../img/bg-area-lateral.png) repeat-x;
+}
+
+.content {
+  margin: 0 auto;
+  width: 90%;
+}
+
+#benefits li {
+  max-height: 10em;
+  padding: 10px;
+  overflow: scroll;
+}
+
+#benefits li:hover {
+  background: #f6f3d6;
+}
+
+#benefits li::-webkit-scrollbar {
+  display: none;
+}
+
+#benefits li a img {
+  float: left;
+  margin: 15px;
+  width: 170px;
+}
+
+#benefits li a h2 {
+  font-size: 1em;
+  background: url(../img/ornamento.png) no-repeat right;
+}
+
+#benefits li a p {
+  font-size: .8em;
+  color: #000;
+  text-align: justify;
+  line-height: 16px;
+  max-height: 9ch;
+  text-overflow: ellipsis;
+}
+
+#footer {
+  padding: 16px;
+  background: #fff url(../img/bg-rodape.png) repeat-x top;
+  color: #7d7640;
+}
+
+hr {
+  width: 80%;
+  margin: 5px auto;
+}
+
+h2 {
+  color: #7d7640;
+  font-size: 1.1em;
+  padding: 15px 0 0;
+}
+
+p {
+  font-size: 1em;
+  padding-bottom: 10px;
 }
