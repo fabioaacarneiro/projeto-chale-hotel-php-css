@@ -7,8 +7,17 @@
     <title>Chalé Hotel</title>
 </head>
 <body>
-    <div class="container">
-        Conteúdo do Site
+    <div id="container">
+        <div id="top">
+            <div id="area-logo">
+                <h1>
+                    <a href="http://">Chalé Hotel</a>
+                </h1>
+            </div>
+            <div id="area-menu">
+                Menu
+            </div>
+        </div>
     </div>
 </body>
 </html>
