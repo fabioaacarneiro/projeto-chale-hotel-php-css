@@ -15,7 +15,13 @@
                 </h1>
             </div>
             <div id="area-menu">
-                Menu
+                <div id="content-menu">
+                    <div id="locals-menu">
+                        <span class="locals">Rio de Janeiro - São Paulo - Belo Horizonte</span>
+                        <a href="" class="reserve">Reservar</a>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
