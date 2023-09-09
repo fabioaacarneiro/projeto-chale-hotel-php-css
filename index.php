@@ -10,7 +10,7 @@
     <div id="container">
         <div id="top">
             <div id="area-logo">
-                <h1>
+                <h1 class="logo" id="logo-h1">
                     <a href="http://">Chalé Hotel</a>
                 </h1>
             </div>
