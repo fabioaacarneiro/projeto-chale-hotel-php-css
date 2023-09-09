@@ -21,6 +21,16 @@
                         <a href="" class="reserve">Reservar</a>
                         <div style="clear: both;"></div>
                     </div>
+                    <div id="menu">
+                        <ul id="navbar">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Histórias</a></li>
+                            <li><a href="">Imprensa</a></li>
+                            <li><a href="">Gastronomia</a></li>
+                            <li><a href="">Contato</a></li>
+                        </ul>
+                        <img class="depoiment" src="assets/img/depoimento.png" alt="depoimentos">
+                    </div>
                 </div>
             </div>
         </div>
